@@ -68,34 +68,27 @@
 ## Async
 
 - For Node.js applied programming
-  - Signal: 👂 heard ⟶  🖐️ used
-  - asyncify: 👂 heard ⟶  🎓 known
-  - Async Collector: 👂 heard ⟶  🎓 known
+  - Signal: 🎓 known ⟶  🖐️ used
   - `nextTick`: 🎓 known ⟶  🖐️ used
   - AbortController: 🎓 known ⟶  🖐️ used
-  - Revealing constructor: 👂 heard ⟶  🎓 known
-  - Total: you have `44` of `50` skills, `6` to be upgraded, and `20` above needed
+  - Total: you have `47` of `50` skills, `3` to be upgraded, and `27` above needed
 - To start Node.js
-  - Signal: 👂 heard ⟶  🎓 known
-  - asyncify: 👂 heard ⟶  🎓 known
-  - Async Collector: 👂 heard ⟶  🎓 known
   - AbortController: 🎓 known ⟶  🖐️ used
-  - Total: you have `33` of `37` skills, `4` to be upgraded, and `19` above needed
+  - Total: you have `36` of `37` skills, `1` to be upgraded, and `24` above needed
 - For Node.js platform/system programming
   - Pattern Reactor: 👂 heard ⟶  🎓 known
   - Race conditions: 🎓 known ⟶  🖐️ used
   - Dead locks: 👂 heard ⟶  🖐️ used
   - Live locks: 👂 heard ⟶  🖐️ used
-  - Actor Model: 👂 heard ⟶  🎓 known
   - Thread: 🎓 known ⟶  🖐️ used
   - Process: 🎓 known ⟶  🖐️ used
-  - Signal: 👂 heard ⟶  🖐️ used
+  - Signal: 🎓 known ⟶  🖐️ used
   - Locks: 🎓 known ⟶  🖐️ used
   - callbackify: 🎓 known ⟶  🖐️ used
-  - asyncify: 👂 heard ⟶  🖐️ used
+  - asyncify: 🎓 known ⟶  🖐️ used
   - Async Pool: 🎓 known ⟶  🖐️ used
   - Async Queue: 🎓 known ⟶  🖐️ used
-  - Async Collector: 👂 heard ⟶  🖐️ used
+  - Async Collector: 🎓 known ⟶  🖐️ used
   - Semaphore: 👂 heard ⟶  🖐️ used
   - Mutex: 👂 heard ⟶  🎓 known
   - Spin Lock: 👂 heard ⟶  🎓 known
@@ -104,16 +97,15 @@
   - AbortSignal: 🎓 known ⟶  🖐️ used
   - Promise double resolve: 🎓 known ⟶  🖐️ used
   - Atomics: 👂 heard ⟶  🎓 known
-  - High resolution clock: 👂 heard ⟶  🎓 known
-  - ref() and unref(): 👂 heard ⟶  🖐️ used
+  - ref() and unref(): 🎓 known ⟶  🖐️ used
   - JSON streaming serialization: 🎓 known ⟶  🖐️ used
-  - AsyncLocalStorage: 👂 heard ⟶  🖐️ used
-  - AsyncResource: 👂 heard ⟶  🖐️ used
+  - AsyncLocalStorage: 🎓 known ⟶  🖐️ used
+  - AsyncResource: 🎓 known ⟶  🖐️ used
   - Web Locks API: 👂 heard ⟶  🎓 known
   - IPC: 👂 heard ⟶  🎓 known
   - Channel API: 👂 heard ⟶  🎓 known
-  - Revealing constructor: 👂 heard ⟶  🖐️ used
-  - Total: you have `44` of `75` skills, `31` to be upgraded, and `12` above needed
+  - Revealing constructor: 🎓 known ⟶  🖐️ used
+  - Total: you have `46` of `75` skills, `29` to be upgraded, and `19` above needed
 
 ## NodeJS
 

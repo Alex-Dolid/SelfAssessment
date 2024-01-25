@@ -18,7 +18,7 @@
   - Live locks: 👂 heard
   - Concurrent programming: 🎓 known
   - Parallel programming: 🎓 known
-  - Actor Model: 🎓
+  - Actor Model: 🎓 known
   - Thread: 🎓 known
   - Process: 🎓 known
 - Async contracts
@@ -27,15 +27,15 @@
   - Thenable: 🖐️ used
   - Promise: 🙋 explained
   - Async/await: 🙋 explained
-  - Future: 🎓
-  - Deferred: 🎓
+  - Future: 🎓 known
+  - Deferred: 🎓 known
   - Sync generator: 🖐️ used
   - Async Generator: 🖐️ used
   - Async Iterator: 🖐️ used
   - Event: 🙋 explained
   - Coroutine: 👂 heard
   - Goroutine: 👂 heard
-  - Signal: 🎓
+  - Signal: 🎓 known
   - Stream: 🖐️ used
   - Chain of responsibility: 🖐️ used
   - Middleware: 🖐️ used
@@ -43,7 +43,7 @@
 - Async adapters and utils
   - callbackify: 🎓 known
   - promisify: 🖐️ used
-  - asyncify: 🎓
+  - asyncify: 🎓 known
   - Callbacks compose: 🖐️ used
   - Async compose: 🖐️ used
 - Async abstractions interfaces
@@ -54,7 +54,7 @@
   - Transform: 🖐️ used
   - Async Pool: 🎓 known
   - Async Queue: 🎓 known
-  - Async Collector: 🎓
+  - Async Collector: 🎓 known
   - Semaphore: 👂 heard
   - Mutex: 👂 heard
   - Spin Lock: 👂 heard
@@ -67,23 +67,23 @@
   - Promise unhandled rejection: 🖐️ used
   - Promise double resolve: 🎓 known
   - Atomics: 👂 heard
-  - High resolution clock: 🎓
+  - High resolution clock: 🎓 known
   - Callback hell: 🙋 explained
   - Promise hell: 🙋 explained
-  - ref() and unref(): 🎓
+  - ref() and unref(): 🎓 known
   - Error handling in async code: 🖐️ used
   - Better stack traces with return await: 🖐️ used
   - JSON streaming serialization: 🎓 known
-  - AsyncLocalStorage: 🎓
-  - AsyncResource: 🎓
+  - AsyncLocalStorage: 🎓 known
+  - AsyncResource: 🎓 known
 - Techniques
-  - Async.js library: 🎓
+  - Async.js library: 🎓 known
   - RxJS library: 🖐️ used
-  - Promise.all: 🙋
-  - Promise.allSettled: 🙋
-  - Promise.race: 🙋
-  - Promise.any: 🙋
+  - Promise.all: 🙋 explained
+  - Promise.allSettled: 🙋 explained
+  - Promise.race: 🙋 explained
+  - Promise.any: 🙋 explained
   - Web Locks API: 👂 heard
   - IPC: 👂 heard
   - Channel API: 👂 heard
-  - Revealing constructor: 🎓
+  - Revealing constructor: 🎓 known
