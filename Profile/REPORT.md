@@ -61,13 +61,9 @@
 ## JavaScript
 
 - To start asynchronous programming
-  - Total: you have `72` of `72` skills, `0` to be upgraded, and `67` above needed
+  - Total: you have `72` of `72` skills, `0` to be upgraded, and `70` above needed
 - To start Node.js
-  - `globalThis`: 👂 heard ⟶  🖐️ used
-  - `break`: 🎓 known ⟶  🖐️ used
-  - `continue`: 🎓 known ⟶  🖐️ used
-  - V8: 🎓 known ⟶  🖐️ used
-  - Total: you have `93` of `97` skills, `4` to be upgraded, and `77` above needed
+  - Total: you have `97` of `97` skills, `0` to be upgraded, and `77` above needed
 
 ## Async
 
