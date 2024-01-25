@@ -27,7 +27,7 @@
   - IIFE: 🙋 explained
   - Async IIFE: 🙋 explained
   - `global`: 🙋 explained
-  - `globalThis`: 👂 heard
+  - `globalThis`: 🖐️
   - `window`: 🙋 explained
   - Getters and setters: 🙋 explained
   - `__proto__`: 🙋 explained
@@ -67,8 +67,8 @@
   - `for..of`: 🙋 explained
   - `for await`: 🖐️ used
   - `throw`: 🙋 explained
-  - `break`: 🎓 known
-  - `continue`: 🎓 known
+  - `break`: 🖐️
+  - `continue`: 🖐️
   - `import`: 🙋 explained
   - `export`: 🙋 explained
   - `label`: 🎓 known
@@ -113,7 +113,7 @@
   - `console`: 🙋 explained
   - Timers: 🙋 explained
 - Infrastructure
-  - V8: 🎓 known
+  - V8: 🖐️
   - Node.js: 🖐️ used
   - npm: 🙋 explained
   - prettier: 🖐️ used
