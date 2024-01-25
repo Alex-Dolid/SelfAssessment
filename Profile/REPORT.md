@@ -32,12 +32,12 @@
   - Standard classes and namespaces: `14` of `14`
   - Infrastructure: `6` of `6`
 - Async
-  - Theory: `0` of `20`
-  - Async contracts: `0` of `18`
-  - Async adapters and utils: `0` of `5`
-  - Async abstractions interfaces: `0` of `11`
-  - JavaScript & Node.js specific: `0` of `17`
-  - Techniques: `0` of `10`
+  - Theory: `20` of `20`
+  - Async contracts: `18` of `18`
+  - Async adapters and utils: `5` of `5`
+  - Async abstractions interfaces: `11` of `11`
+  - JavaScript & Node.js specific: `17` of `17`
+  - Techniques: `10` of `10`
 - NodeJS
   - Internals and concepts: `0` of `9`
   - Modularity, layers and dependencies: `0` of `14`
@@ -68,173 +68,52 @@
 ## Async
 
 - For Node.js applied programming
-  - Event loop: 🤷 unknown ⟶  👂 heard
-  - `try..catch`: 🤷 unknown ⟶  🖐️ used
-  - Non-blocking: 🤷 unknown ⟶  👂 heard
-  - Async I/O: 🤷 unknown ⟶  👂 heard
-  - Race conditions: 🤷 unknown ⟶  🎓 known
-  - Thread: 🤷 unknown ⟶  👂 heard
-  - Process: 🤷 unknown ⟶  👂 heard
-  - Callbacks: 🤷 unknown ⟶  🖐️ used
-  - Callback-last-error-first: 🤷 unknown ⟶  🖐️ used
-  - Promise: 🤷 unknown ⟶  🖐️ used
-  - Async/await: 🤷 unknown ⟶  🖐️ used
-  - Sync generator: 🤷 unknown ⟶  🎓 known
-  - Async Generator: 🤷 unknown ⟶  🎓 known
-  - Async Iterator: 🤷 unknown ⟶  🎓 known
-  - Event: 🤷 unknown ⟶  🖐️ used
-  - Signal: 🤷 unknown ⟶  🖐️ used
-  - Stream: 🤷 unknown ⟶  🖐️ used
-  - Locks: 🤷 unknown ⟶  🎓 known
-  - callbackify: 🤷 unknown ⟶  🎓 known
-  - promisify: 🤷 unknown ⟶  🎓 known
-  - asyncify: 🤷 unknown ⟶  🎓 known
-  - EventEmitter: 🤷 unknown ⟶  🖐️ used
-  - Observable/Observer: 🤷 unknown ⟶  👂 heard
-  - Readable: 🤷 unknown ⟶  🖐️ used
-  - Writable: 🤷 unknown ⟶  🖐️ used
-  - Transform: 🤷 unknown ⟶  🖐️ used
-  - Async Pool: 🤷 unknown ⟶  🎓 known
-  - Async Queue: 🤷 unknown ⟶  🎓 known
-  - Async Collector: 🤷 unknown ⟶  🎓 known
-  - Semaphore: 🤷 unknown ⟶  👂 heard
-  - Timers: 🤷 unknown ⟶  🖐️ used
-  - `setImmediate`: 🤷 unknown ⟶  🖐️ used
-  - `nextTick`: 🤷 unknown ⟶  🖐️ used
-  - AbortController: 🤷 unknown ⟶  🖐️ used
-  - AbortSignal: 🤷 unknown ⟶  🎓 known
-  - Callback hell: 🤷 unknown ⟶  🎓 known
-  - Promise hell: 🤷 unknown ⟶  🎓 known
-  - ref() and unref(): 🤷 unknown ⟶  👂 heard
-  - Error handling in async code: 🤷 unknown ⟶  🖐️ used
-  - Better stack traces with return await: 🤷 unknown ⟶  🖐️ used
-  - JSON streaming serialization: 🤷 unknown ⟶  👂 heard
-  - AsyncLocalStorage: 🤷 unknown ⟶  👂 heard
-  - AsyncResource: 🤷 unknown ⟶  👂 heard
-  - RxJS library: 🤷 unknown ⟶  👂 heard
-  - Promise.all: 🤷 unknown ⟶  🖐️ used
-  - Promise.allSettled: 🤷 unknown ⟶  🖐️ used
-  - Promise.race: 🤷 unknown ⟶  🖐️ used
-  - Promise.any: 🤷 unknown ⟶  🖐️ used
-  - Web Locks API: 🤷 unknown ⟶  👂 heard
-  - Revealing constructor: 🤷 unknown ⟶  🎓 known
-  - Total: you have `0` of `50` skills, `50` to be upgraded, and `0` above needed
+  - Signal: 👂 heard ⟶  🖐️ used
+  - asyncify: 👂 heard ⟶  🎓 known
+  - Async Collector: 👂 heard ⟶  🎓 known
+  - `nextTick`: 🎓 known ⟶  🖐️ used
+  - AbortController: 🎓 known ⟶  🖐️ used
+  - Revealing constructor: 👂 heard ⟶  🎓 known
+  - Total: you have `44` of `50` skills, `6` to be upgraded, and `20` above needed
 - To start Node.js
-  - `try..catch`: 🤷 unknown ⟶  🖐️ used
-  - Callbacks: 🤷 unknown ⟶  🖐️ used
-  - Callback-last-error-first: 🤷 unknown ⟶  👂 heard
-  - Promise: 🤷 unknown ⟶  🖐️ used
-  - Async/await: 🤷 unknown ⟶  🖐️ used
-  - Async Iterator: 🤷 unknown ⟶  🎓 known
-  - Event: 🤷 unknown ⟶  🖐️ used
-  - Signal: 🤷 unknown ⟶  🎓 known
-  - Stream: 🤷 unknown ⟶  🎓 known
-  - Chain of responsibility: 🤷 unknown ⟶  👂 heard
-  - Middleware: 🤷 unknown ⟶  👂 heard
-  - Locks: 🤷 unknown ⟶  👂 heard
-  - callbackify: 🤷 unknown ⟶  🎓 known
-  - promisify: 🤷 unknown ⟶  🎓 known
-  - asyncify: 🤷 unknown ⟶  🎓 known
-  - EventEmitter: 🤷 unknown ⟶  🖐️ used
-  - Readable: 🤷 unknown ⟶  🎓 known
-  - Writable: 🤷 unknown ⟶  🎓 known
-  - Transform: 🤷 unknown ⟶  🎓 known
-  - Async Pool: 🤷 unknown ⟶  🎓 known
-  - Async Queue: 🤷 unknown ⟶  🎓 known
-  - Async Collector: 🤷 unknown ⟶  🎓 known
-  - Timers: 🤷 unknown ⟶  🖐️ used
-  - `setImmediate`: 🤷 unknown ⟶  🖐️ used
-  - `nextTick`: 🤷 unknown ⟶  👂 heard
-  - AbortController: 🤷 unknown ⟶  🖐️ used
-  - AbortSignal: 🤷 unknown ⟶  🎓 known
-  - Callback hell: 🤷 unknown ⟶  🎓 known
-  - Promise hell: 🤷 unknown ⟶  🎓 known
-  - Error handling in async code: 🤷 unknown ⟶  🖐️ used
-  - Better stack traces with return await: 🤷 unknown ⟶  🖐️ used
-  - JSON streaming serialization: 🤷 unknown ⟶  👂 heard
-  - Promise.all: 🤷 unknown ⟶  🖐️ used
-  - Promise.allSettled: 🤷 unknown ⟶  🖐️ used
-  - Promise.race: 🤷 unknown ⟶  🖐️ used
-  - Promise.any: 🤷 unknown ⟶  🖐️ used
-  - Revealing constructor: 🤷 unknown ⟶  👂 heard
-  - Total: you have `0` of `37` skills, `37` to be upgraded, and `0` above needed
+  - Signal: 👂 heard ⟶  🎓 known
+  - asyncify: 👂 heard ⟶  🎓 known
+  - Async Collector: 👂 heard ⟶  🎓 known
+  - AbortController: 🎓 known ⟶  🖐️ used
+  - Total: you have `33` of `37` skills, `4` to be upgraded, and `19` above needed
 - For Node.js platform/system programming
-  - Event loop: 🤷 unknown ⟶  🎓 known
-  - `try..catch`: 🤷 unknown ⟶  🖐️ used
-  - Non-blocking: 🤷 unknown ⟶  🎓 known
-  - Async I/O: 🤷 unknown ⟶  🎓 known
-  - Thread pool: 🤷 unknown ⟶  🎓 known
-  - Pattern Reactor: 🤷 unknown ⟶  🎓 known
-  - CAS operations: 🤷 unknown ⟶  👂 heard
-  - libuv: 🤷 unknown ⟶  🎓 known
-  - Race conditions: 🤷 unknown ⟶  🖐️ used
-  - Dead locks: 🤷 unknown ⟶  🖐️ used
-  - Live locks: 🤷 unknown ⟶  🖐️ used
-  - Concurrent programming: 🤷 unknown ⟶  🎓 known
-  - Parallel programming: 🤷 unknown ⟶  🎓 known
-  - Actor Model: 🤷 unknown ⟶  🎓 known
-  - Thread: 🤷 unknown ⟶  🖐️ used
-  - Process: 🤷 unknown ⟶  🖐️ used
-  - Callbacks: 🤷 unknown ⟶  🖐️ used
-  - Callback-last-error-first: 🤷 unknown ⟶  🖐️ used
-  - Thenable: 🤷 unknown ⟶  🖐️ used
-  - Promise: 🤷 unknown ⟶  🖐️ used
-  - Async/await: 🤷 unknown ⟶  🖐️ used
-  - Future: 🤷 unknown ⟶  👂 heard
-  - Deferred: 🤷 unknown ⟶  👂 heard
-  - Sync generator: 🤷 unknown ⟶  🖐️ used
-  - Async Generator: 🤷 unknown ⟶  🖐️ used
-  - Async Iterator: 🤷 unknown ⟶  🖐️ used
-  - Event: 🤷 unknown ⟶  🖐️ used
-  - Coroutine: 🤷 unknown ⟶  👂 heard
-  - Goroutine: 🤷 unknown ⟶  👂 heard
-  - Signal: 🤷 unknown ⟶  🖐️ used
-  - Stream: 🤷 unknown ⟶  🖐️ used
-  - Chain of responsibility: 🤷 unknown ⟶  🖐️ used
-  - Middleware: 🤷 unknown ⟶  🖐️ used
-  - Locks: 🤷 unknown ⟶  🖐️ used
-  - callbackify: 🤷 unknown ⟶  🖐️ used
-  - promisify: 🤷 unknown ⟶  🖐️ used
-  - asyncify: 🤷 unknown ⟶  🖐️ used
-  - EventEmitter: 🤷 unknown ⟶  🖐️ used
-  - Observable/Observer: 🤷 unknown ⟶  🖐️ used
-  - Readable: 🤷 unknown ⟶  🖐️ used
-  - Writable: 🤷 unknown ⟶  🖐️ used
-  - Transform: 🤷 unknown ⟶  🖐️ used
-  - Async Pool: 🤷 unknown ⟶  🖐️ used
-  - Async Queue: 🤷 unknown ⟶  🖐️ used
-  - Async Collector: 🤷 unknown ⟶  🖐️ used
-  - Semaphore: 🤷 unknown ⟶  🖐️ used
-  - Mutex: 🤷 unknown ⟶  🎓 known
-  - Spin Lock: 🤷 unknown ⟶  🎓 known
-  - Timers: 🤷 unknown ⟶  🖐️ used
-  - `setImmediate`: 🤷 unknown ⟶  🖐️ used
-  - `nextTick`: 🤷 unknown ⟶  🖐️ used
-  - AbortController: 🤷 unknown ⟶  🖐️ used
-  - AbortSignal: 🤷 unknown ⟶  🖐️ used
-  - Promise unhandled rejection: 🤷 unknown ⟶  🖐️ used
-  - Promise double resolve: 🤷 unknown ⟶  🖐️ used
-  - Atomics: 🤷 unknown ⟶  🎓 known
-  - High resolution clock: 🤷 unknown ⟶  🎓 known
-  - Callback hell: 🤷 unknown ⟶  🖐️ used
-  - Promise hell: 🤷 unknown ⟶  🖐️ used
-  - ref() and unref(): 🤷 unknown ⟶  🖐️ used
-  - Error handling in async code: 🤷 unknown ⟶  🖐️ used
-  - Better stack traces with return await: 🤷 unknown ⟶  🖐️ used
-  - JSON streaming serialization: 🤷 unknown ⟶  🖐️ used
-  - AsyncLocalStorage: 🤷 unknown ⟶  🖐️ used
-  - AsyncResource: 🤷 unknown ⟶  🖐️ used
-  - Async.js library: 🤷 unknown ⟶  👂 heard
-  - RxJS library: 🤷 unknown ⟶  👂 heard
-  - Promise.all: 🤷 unknown ⟶  🖐️ used
-  - Promise.allSettled: 🤷 unknown ⟶  🖐️ used
-  - Promise.race: 🤷 unknown ⟶  🖐️ used
-  - Promise.any: 🤷 unknown ⟶  🖐️ used
-  - Web Locks API: 🤷 unknown ⟶  🎓 known
-  - IPC: 🤷 unknown ⟶  🎓 known
-  - Channel API: 🤷 unknown ⟶  🎓 known
-  - Revealing constructor: 🤷 unknown ⟶  🖐️ used
-  - Total: you have `0` of `75` skills, `75` to be upgraded, and `0` above needed
+  - Pattern Reactor: 👂 heard ⟶  🎓 known
+  - Race conditions: 🎓 known ⟶  🖐️ used
+  - Dead locks: 👂 heard ⟶  🖐️ used
+  - Live locks: 👂 heard ⟶  🖐️ used
+  - Actor Model: 👂 heard ⟶  🎓 known
+  - Thread: 🎓 known ⟶  🖐️ used
+  - Process: 🎓 known ⟶  🖐️ used
+  - Signal: 👂 heard ⟶  🖐️ used
+  - Locks: 🎓 known ⟶  🖐️ used
+  - callbackify: 🎓 known ⟶  🖐️ used
+  - asyncify: 👂 heard ⟶  🖐️ used
+  - Async Pool: 🎓 known ⟶  🖐️ used
+  - Async Queue: 🎓 known ⟶  🖐️ used
+  - Async Collector: 👂 heard ⟶  🖐️ used
+  - Semaphore: 👂 heard ⟶  🖐️ used
+  - Mutex: 👂 heard ⟶  🎓 known
+  - Spin Lock: 👂 heard ⟶  🎓 known
+  - `nextTick`: 🎓 known ⟶  🖐️ used
+  - AbortController: 🎓 known ⟶  🖐️ used
+  - AbortSignal: 🎓 known ⟶  🖐️ used
+  - Promise double resolve: 🎓 known ⟶  🖐️ used
+  - Atomics: 👂 heard ⟶  🎓 known
+  - High resolution clock: 👂 heard ⟶  🎓 known
+  - ref() and unref(): 👂 heard ⟶  🖐️ used
+  - JSON streaming serialization: 🎓 known ⟶  🖐️ used
+  - AsyncLocalStorage: 👂 heard ⟶  🖐️ used
+  - AsyncResource: 👂 heard ⟶  🖐️ used
+  - Web Locks API: 👂 heard ⟶  🎓 known
+  - IPC: 👂 heard ⟶  🎓 known
+  - Channel API: 👂 heard ⟶  🎓 known
+  - Revealing constructor: 👂 heard ⟶  🖐️ used
+  - Total: you have `44` of `75` skills, `31` to be upgraded, and `12` above needed
 
 ## NodeJS
 
