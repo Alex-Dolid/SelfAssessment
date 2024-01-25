@@ -18,10 +18,10 @@
   - `...rest`: 🙋 explained
   - `typeof`: 🙋 explained
   - Destructuring: 🙋 explained
-  - Generators: 🖐️ used
-  - Iterators: 🖐️ used
-  - Async generator: 🖐️ used
-  - Async iterator: 🖐️ used
+  - Generators: 🙋
+  - Iterators: 🙋
+  - Async generator: 🙋
+  - Async iterator: 🙋
   - Chaining: 🙋 explained
   - Optional chaining: 🙋 explained
   - IIFE: 🙋 explained
@@ -65,7 +65,7 @@
   - `for`: 🙋 explained
   - `for..in`: 🙋 explained
   - `for..of`: 🙋 explained
-  - `for await`: 🖐️ used
+  - `for await`: 🙋
   - `throw`: 🙋 explained
   - `break`: 🖐️ used
   - `continue`: 🖐️ used
@@ -84,7 +84,7 @@
   - Function declaration: 🙋 explained
   - Function expression: 🙋 explained
   - Default parameters: 🙋 explained
-  - Functional object: 🎓 known
+  - Functional object: 🖐️
   - `Function.prototype.call`: 🖐️ used
   - `Function.prototype.bind`: 🖐️ used
   - `Function.prototype.apply`: 🖐️ used
