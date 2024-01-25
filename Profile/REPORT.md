@@ -49,9 +49,9 @@
   - Error handling and debugging: `14` of `14`
   - Integrations and bindings: `16` of `16`
 - Paradigms
-  - Theory: `0` of `23`
-  - OOP basics: `0` of `21`
-  - Patterns: `0` of `25`
+  - Theory: `23` of `23`
+  - OOP basics: `21` of `21`
+  - Patterns: `25` of `25`
 - Architecture
   - Application structure: `0` of `22`
   - Application architecture: `0` of `36`
