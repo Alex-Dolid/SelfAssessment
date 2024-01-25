@@ -1,74 +1,74 @@
 ## Multi-paradigm programming
 
 - Theory
-  - Procedural programming
-  - Imperative programming
-  - Structured programming
-  - Non-structured programming
-  - Functional programming
-  - Prototype-based programming
-  - Object-oriented programming
-  - Object-based programming
-  - Generic programming
-  - Concurrent computing
-  - Asyncronous programming
-  - Parallel programming
-  - Reactive programming
-  - Functional-reactive (FRP)
-  - Automata-based programming
-  - Domain-specific languages
-  - Multi-paradigm programming
-  - Metaprogramming
-  - Actor model
-  - Lambda calculus
-  - Black box
-  - Information hiding
-  - Aspect-oriented programming
+  - Procedural programming 🖐️
+  - Imperative programming 🖐️
+  - Structured programming 🖐️
+  - Non-structured programming 🖐️
+  - Functional programming 🖐️
+  - Prototype-based programming 🙋
+  - Object-oriented programming 🙋
+  - Object-based programming 🖐️
+  - Generic programming 🖐️
+  - Concurrent computing 🎓
+  - Asyncronous programming 🙋
+  - Parallel programming 🎓
+  - Reactive programming 🎓
+  - Functional-reactive (FRP) 🎓
+  - Automata-based programming 👂
+  - Domain-specific languages 👂
+  - Multi-paradigm programming 🖐️
+  - Metaprogramming 🖐️
+  - Actor model 🎓
+  - Lambda calculus 🙋
+  - Black box 🎓
+  - Information hiding 🎓
+  - Aspect-oriented programming 👂
 - OOP basics
-  - Constructor
-  - Operator `new`
-  - Static method
-  - Method
-  - Async method
-  - Getters, Setters
-  - Public fields
-  - Private fields
-  - Field declarations
-  - Inheritance
-  - Parent class
-  - Polymorphism
-  - Abstract class
-  - Interface
-  - Encapsulation
-  - Hidden class
-  - Object form
-  - Instance
-  - Introspection
-  - Reflection
-  - The diamond problem
+  - Constructor 🙋
+  - Operator `new` 🙋
+  - Static method 🙋
+  - Method 🙋
+  - Async method 🙋
+  - Getters, Setters 🙋
+  - Public fields 🙋
+  - Private fields 🙋
+  - Field declarations 🙋
+  - Inheritance 🙋
+  - Parent class 🙋
+  - Polymorphism 🙋
+  - Abstract class 🙋
+  - Interface 🙋
+  - Encapsulation 🙋
+  - Hidden class 👂
+  - Object form 🖐️
+  - Instance 🙋
+  - Introspection 🖐️
+  - Reflection 🎓
+  - The diamond problem 👂
 - Patterns
-  - Singleton
-  - Factory Method
-  - Abstract Factory
-  - Adapter
-  - Observer
-  - Strategy
-  - Facade
-  - Proxy
-  - Chain of Responsibility
-  - Command
-  - Iterator
-  - State
-  - Bridge
-  - Builder
-  - Prototype
-  - Composite
-  - Decorator
-  - Flyweight
-  - Mediator
-  - Memento
-  - Template Method
-  - Visitor
-  - Reactor
-  - Active object
-  - Delegation
+  - Singleton 🙋
+  - Factory Method 🙋
+  - Abstract Factory 🎓
+  - Adapter 🙋
+  - Observer 🖐️
+  - Strategy 🙋
+  - Facade 🖐️
+  - Proxy 🖐️
+  - Chain of Responsibility 🖐️
+  - Command 🎓
+  - Iterator 🖐️
+  - State 🖐️
+  - Bridge 🖐️
+  - Builder 🖐️
+  - Prototype 🙋
+  - Composite 🖐️
+  - Decorator 🖐️
+  - Flyweight 👂
+  - Mediator 🎓
+  - Memento 👂
+  - Template Method 👂
+  - Visitor 👂
+  - Reactor 👂
+  - Active object 👂
+  - Delegation 👂
