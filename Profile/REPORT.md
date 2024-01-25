@@ -39,15 +39,15 @@
   - JavaScript & Node.js specific: `17` of `17`
   - Techniques: `10` of `10`
 - NodeJS
-  - Internals and concepts: `0` of `9`
-  - Modularity, layers and dependencies: `0` of `14`
-  - Environment: `0` of `6`
-  - Internal API: `0` of `26`
-  - Network: `0` of `28`
-  - Technique and tools: `0` of `12`
-  - Data access: `0` of `7`
-  - Error handling and debugging: `0` of `14`
-  - Integrations and bindings: `0` of `16`
+  - Internals and concepts: `9` of `9`
+  - Modularity, layers and dependencies: `14` of `14`
+  - Environment: `6` of `6`
+  - Internal API: `26` of `26`
+  - Network: `28` of `28`
+  - Technique and tools: `12` of `12`
+  - Data access: `7` of `7`
+  - Error handling and debugging: `14` of `14`
+  - Integrations and bindings: `16` of `16`
 - Paradigms
   - Theory: `0` of `23`
   - OOP basics: `0` of `21`
@@ -118,14 +118,14 @@
 ## NodeJS
 
 - API and domain logic developer
-  - Total: you have `0` of `0` skills, `0` to be upgraded, and `0` above needed
+  - Total: you have `0` of `0` skills, `0` to be upgraded, and `56` above needed
 - Enterprise applications
-  - Total: you have `0` of `0` skills, `0` to be upgraded, and `0` above needed
+  - Total: you have `0` of `0` skills, `0` to be upgraded, and `78` above needed
 - Real-Time, gamedev, messaging
-  - Total: you have `0` of `0` skills, `0` to be upgraded, and `0` above needed
+  - Total: you have `0` of `0` skills, `0` to be upgraded, and `60` above needed
 - Web and Frontend
-  - Total: you have `0` of `0` skills, `0` to be upgraded, and `0` above needed
+  - Total: you have `0` of `0` skills, `0` to be upgraded, and `34` above needed
 - Fullstack development
-  - Total: you have `0` of `0` skills, `0` to be upgraded, and `0` above needed
+  - Total: you have `0` of `0` skills, `0` to be upgraded, and `67` above needed
 - Platform/system development
-  - Total: you have `0` of `0` skills, `0` to be upgraded, and `0` above needed
+  - Total: you have `0` of `0` skills, `0` to be upgraded, and `118` above needed
