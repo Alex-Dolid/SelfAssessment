@@ -53,10 +53,10 @@
   - OOP basics: `21` of `21`
   - Patterns: `25` of `25`
 - Architecture
-  - Application structure: `0` of `22`
-  - Application architecture: `0` of `36`
-  - Solution architecture: `0` of `18`
-  - Enterprise architecture: `0` of `18`
+  - Application structure: `22` of `22`
+  - Application architecture: `36` of `36`
+  - Solution architecture: `18` of `18`
+  - Enterprise architecture: `18` of `18`
 
 ## JavaScript
 
