@@ -18,7 +18,7 @@
   - Live locks: 👂 heard
   - Concurrent programming: 🎓 known
   - Parallel programming: 🎓 known
-  - Actor Model: 👂 heard
+  - Actor Model: 🎓
   - Thread: 🎓 known
   - Process: 🎓 known
 - Async contracts
@@ -27,15 +27,15 @@
   - Thenable: 🖐️ used
   - Promise: 🙋 explained
   - Async/await: 🙋 explained
-  - Future: 👂 heard
-  - Deferred: 👂 heard
+  - Future: 🎓
+  - Deferred: 🎓
   - Sync generator: 🖐️ used
   - Async Generator: 🖐️ used
   - Async Iterator: 🖐️ used
   - Event: 🙋 explained
   - Coroutine: 👂 heard
   - Goroutine: 👂 heard
-  - Signal: 👂 heard
+  - Signal: 🎓
   - Stream: 🖐️ used
   - Chain of responsibility: 🖐️ used
   - Middleware: 🖐️ used
@@ -43,7 +43,7 @@
 - Async adapters and utils
   - callbackify: 🎓 known
   - promisify: 🖐️ used
-  - asyncify: 👂 heard
+  - asyncify: 🎓
   - Callbacks compose: 🖐️ used
   - Async compose: 🖐️ used
 - Async abstractions interfaces
@@ -54,7 +54,7 @@
   - Transform: 🖐️ used
   - Async Pool: 🎓 known
   - Async Queue: 🎓 known
-  - Async Collector: 👂 heard
+  - Async Collector: 🎓
   - Semaphore: 👂 heard
   - Mutex: 👂 heard
   - Spin Lock: 👂 heard
@@ -67,23 +67,23 @@
   - Promise unhandled rejection: 🖐️ used
   - Promise double resolve: 🎓 known
   - Atomics: 👂 heard
-  - High resolution clock: 👂 heard
+  - High resolution clock: 🎓
   - Callback hell: 🙋 explained
   - Promise hell: 🙋 explained
-  - ref() and unref(): 👂 heard
+  - ref() and unref(): 🎓
   - Error handling in async code: 🖐️ used
   - Better stack traces with return await: 🖐️ used
   - JSON streaming serialization: 🎓 known
-  - AsyncLocalStorage: 👂 heard
-  - AsyncResource: 👂 heard
+  - AsyncLocalStorage: 🎓
+  - AsyncResource: 🎓
 - Techniques
-  - Async.js library: 👂 heard
+  - Async.js library: 🎓
   - RxJS library: 🖐️ used
-  - Promise.all: 🖐️ used
-  - Promise.allSettled: 🖐️ used
-  - Promise.race: 🖐️ used
-  - Promise.any: 🖐️ used
+  - Promise.all: 🙋
+  - Promise.allSettled: 🙋
+  - Promise.race: 🙋
+  - Promise.any: 🙋
   - Web Locks API: 👂 heard
   - IPC: 👂 heard
   - Channel API: 👂 heard
-  - Revealing constructor: 👂 heard
+  - Revealing constructor: 🎓
