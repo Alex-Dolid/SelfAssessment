@@ -13,17 +13,17 @@
 ## Assessment totals
 
 - Programming
-  - Concepts: `0` of `23`
-  - Syntax and concepts: `0` of `34`
-  - Types: `0` of `14`
-  - Functions: `0` of `23`
-  - Data structures: `0` of `26`
-  - Networking: `0` of `9`
-  - Process and tools: `0` of `29`
-  - Antipatterns: `0` of `30`
-  - Runtimes and virtual machines: `0` of `5`
-  - Operation systems: `0` of `13`
-  - Standards: `0` of `15`
+  - Concepts: `23` of `23`
+  - Syntax and concepts: `34` of `34`
+  - Types: `14` of `14`
+  - Functions: `23` of `23`
+  - Data structures: `26` of `26`
+  - Networking: `9` of `9`
+  - Process and tools: `29` of `29`
+  - Antipatterns: `30` of `30`
+  - Runtimes and virtual machines: `5` of `5`
+  - Operation systems: `13` of `13`
+  - Standards: `15` of `15`
 - JavaScript
   - Language: `57` of `57`
   - Statements: `19` of `19`
