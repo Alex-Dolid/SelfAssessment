@@ -63,7 +63,7 @@
 - To start asynchronous programming
   - Total: you have `72` of `72` skills, `0` to be upgraded, and `70` above needed
 - To start Node.js
-  - Total: you have `97` of `97` skills, `0` to be upgraded, and `77` above needed
+  - Total: you have `97` of `97` skills, `0` to be upgraded, and `82` above needed
 
 ## Async
 
