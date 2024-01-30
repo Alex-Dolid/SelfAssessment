@@ -6,10 +6,17 @@
   - Subject domain: 🙋 explained
   - Algorithm: 🙋 explained
   - Syntax: 🙋 explained
-  - Semantics: 🙋 explained
+  - Semantics: 🙋 explained 
+  - Abstraction
+  - Paradigm
   - Programm: 🙋 explained
   - Programming paradigm: 🙋 explained
   - Programming language: 🙋 explained
+  - Contract
+  - Module
+  - Library
+  - Package
+  - Component
   - Framework: 🙋 explained
   - Platform: 🙋 explained
   - Source code: 🙋 explained
@@ -48,8 +55,7 @@
   - Assignment: 🙋 explained
   - Regular expression: 🙋 explained
   - Interface: 🙋 explained
-  - Contract: 🙋 explained
-  - Module: 🙋 explained
+  - Namespaces
   - Call stack: 🙋 explained
   - Naming conventions: 🙋 explained
   - Coding conventions: 🙋 explained
@@ -156,7 +162,6 @@
   - Garbage collection: 🙋 explained
   - Refactoring: 🙋 explained
   - Code review: 🙋 explained
-  - Paradigm: 🙋 explained
   - Exception: 🙋 explained
   - Unittesting: 🙋 explained
   - git: 🙋 explained

@@ -24,6 +24,8 @@
   - Black box: 🎓 known
   - Information hiding: 🎓 known
   - Aspect-oriented programming: 👂 heard
+  - Anemic domain model
+  - Class composition
 - OOP basics
   - Constructor: 🙋 explained
   - Operator `new`: 🙋 explained
@@ -46,6 +48,21 @@
   - Introspection: 🖐️ used
   - Reflection: 🎓 known
   - The diamond problem: 👂 heard
+- GRASP
+  - Information expert
+  - Creator
+  - Controller
+  - Indirection
+  - Low coupling
+  - High cohesion
+  - Protected variations
+  - Pure fabrication
+- SOLID
+  - Single-responsibility principle (SRP)
+  - Open–closed principle (OCP)
+  - Liskov substitution principle (LSP)
+  - Interface segregation principle (ISP)
+  - Dependency inversion principle (DIP)
 - Patterns
   - Singleton: 🙋 explained
   - Factory Method: 🙋 explained
