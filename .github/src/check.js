@@ -23,16 +23,19 @@ if (!REPO) {
   const OUT = cp.execSync('git config --get remote.origin.url').toString();
   REPO = metautil.between(OUT, ':', '.');
 }
-const LINK = 'https://github.com/' + REPO;
+const LINK = 'https://github.com/' + REPO + '/blob/main/Profile/REPORT.md';
 
-const BASE = 'https://img.shields.io/badge/Self_Assessment-skills';
+const BASE = 'https://img.shields.io/badge/Self_Assessment';
 const STYLE = `style=flat-square`;
 
 const codeBlock = (code) => '```\n' + code + '\n```';
 
+const overall = { count: 0, total: 0, all: 0 };
+
 const generateBadge = () => {
   const color = exitCode === 0 ? '009933' : 'FF3300';
-  const img = `${BASE}-${color}?${STYLE}`;
+  const stat = overall.count + '/' + overall.total + '/' + overall.all;
+  const img = `${BASE}-${stat}-${color}?${STYLE}`;
   return {
     md: `[![Skills](${img})](${LINK})`,
     html: `<a href="${LINK}"><img alt="Skills" src="${img}"></a>`,
@@ -216,8 +219,8 @@ const loadDir = async (place, options = {}) => {
   const dir = path.join(PATH, place);
   const files = await fs.readdir(dir);
   const units = files
-    .filter((file) => file.endsWith('.md'))
-    .map((file) => file.substring(0, file.length - '.md'.length));
+      .filter((file) => file.endsWith('.md'))
+      .map((file) => file.substring(0, file.length - '.md'.length));
   const collection = {};
   for (const unit of units) {
     collection[unit] = await analise(dir, unit, options);
@@ -228,13 +231,15 @@ const loadDir = async (place, options = {}) => {
 const match = (expected, answered) => {
   const todo = [];
   for (const section in expected.sections) {
-    todo.push(`- ${section}`);
+    todo.push(`\n| ${section} | actual | ⟶  | required |`);
+    todo.push(`| --- | --- | --- | --- |`);
     const needed = expected.sections[section];
     let count = 0;
     let have = 0;
     let above = 0;
     let upgrade = 0;
     const entries = Object.entries(needed);
+    const propose = [];
     for (const [skill, level] of entries) {
       if (level) count++;
       const actual = answered.skills.get(skill) || '🤷 unknown';
@@ -242,17 +247,20 @@ const match = (expected, answered) => {
       const levelIndex = LEVEL_LABELS.indexOf(level || '🤷 unknown');
       if (actualIndex < levelIndex) {
         upgrade++;
-        todo.push(`  - ${skill}: ${actual} ⟶  ${level}`);
+        propose.push(`| ${skill} | ${actual} | ⟶  | ${level} |`);
       }
       if (actualIndex > levelIndex) above++;
       if (actualIndex >= levelIndex && levelIndex !== 0) have++;
     }
+    if (have) todo.push(...propose);
     const total = `you have \`${have}\` of \`${count}\` skills`;
     const ext = `\`${upgrade}\` to be upgraded, and \`${above}\` above needed`;
-    todo.push(`  - Total: ${total}, ${ext}`);
+    todo.push(`\nTotal: ${total}, ${ext}`);
   }
   return todo;
 };
+
+const NBSP = '&nbsp;&nbsp;&nbsp;&nbsp;';
 
 const getTotal = (answered) => {
   const total = [];
@@ -263,7 +271,12 @@ const getTotal = (answered) => {
     for (const level of entries) {
       if (level) count++;
     }
-    total.push(`  - ${section}: \`${count}\` of \`${entries.length}\``);
+    total.push(`| ${NBSP} ${section} | \`${count}\` | \`${entries.length}\` |`);
+    if (count > 0) {
+      overall.count += count;
+      overall.total += entries.length;
+    }
+    overall.all += entries.length;
   }
   return total;
 };
@@ -281,16 +294,18 @@ const getTotal = (answered) => {
   console.log(caption`Match profiles`);
   const todos = [];
   const totals = ['## Assessment totals\n'];
+  totals.push(`| Unit | Marked | Of |`);
+  totals.push(`| ---- | ------ | -- |`);
   for (const unit of UNITS) {
     console.log(chapter`  Unit: ${unit}`);
     const expected = roles[unit];
     const answered = skills[unit];
     if (expected) {
       const todo = match(expected, answered);
-      todos.push(`\n## ${unit}\n`);
+      todos.push(`\n## [${unit}](/Skills/${unit}.md)\n`);
       todos.push(...todo);
     }
-    totals.push(`- ${unit}`);
+    totals.push(`| [${unit}](/Skills/${unit}.md) | | |`);
     const total = getTotal(answered);
     totals.push(...total);
   }
@@ -305,9 +320,10 @@ const getTotal = (answered) => {
   const profileReport = report.join('\n') + '\n';
   await fs.writeFile(`${PATH}/Profile/REPORT.md`, profileReport);
 
-  const template = await loadFile(`${PATH}/.github/src/Templates/README.md`);
-  const readme = template.replace('$BADGE', badge.md);
-  await fs.writeFile(`${PATH}/README.md`, readme);
+  const readmeFile = `${PATH}/README.md`;
+  const template = await loadFile(readmeFile);
+  const readme = template.replace('<!--- $BADGE -->', badge.md);
+  await fs.writeFile(readmeFile, readme);
 
   console.log('');
   process.exit(exitCode);
