@@ -6,7 +6,7 @@
   - Subject domain: 🙋 explained
   - Algorithm: 🙋 explained
   - Syntax: 🙋 explained
-  - Semantics: 🙋 explained 
+  - Semantics: 🙋 explained
   - Abstraction
   - Paradigm
   - Programm: 🙋 explained
